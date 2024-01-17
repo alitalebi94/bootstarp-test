@@ -92,21 +92,21 @@
     </header>
 
     <main>
-      <div class="row px-5 mt-5">
-        <select onchange="adviceSelection(this.value)" class="form-control col-5 mx-5">
+      <div class="row px-5 mt-5 mb-4">
+        <select onchange="adviceSelection(this.value)" class="form-control col-md-5 mx-md-5">
           <option value=""  selected disabled hidden>جستجو ...</option>
           <option value="1">پیشنهاد 1</option>
           <option value="2">پیشنهاد 2</option>
          
         </select>
-        <select id="sub-advice" class="form-control col-5">
+        <select id="sub-advice" class="form-control col-md-5">
           <option value=""  selected disabled hidden>جستجو ...</option>
         </select>
       </div>
       
      
       <div class="services  mt-0">
-        <div class="p-5 m-5">
+        <div class="">
           <div class="col-md-12">
             <div class="section-heading text-center">
               <h2>دورهای <em>منتخب</em></h2>
@@ -114,19 +114,23 @@
             </div>
           </div>
           <div class="row" id="services">
-            <!-- <div class="col-12 col-md-6 col-lg-3">
-              <div class="card m-4">
-                <img class="p-relative" src="assets/img/services01.jpg" width="100%" height="300px" alt="">
+            <!-- <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="card m-4 p-relative">
+                <div class="p-absolute card-inner-boader"></div>
+                <img src="assets/img/services01.jpg" width="100%" height="300px" alt="">
                   <div class="p-absolute pt-5 mt-5 text-center service-card-body w-100">
                     <h2 class="text-center white bold">دوره</h2>
-                    <p class="text-right white px-2 mt-4">مقدماتی میکرو بلیدینگ</p>
-                   
+                    <p class="text-right white px-2 mt-4 bold">مقدماتی میکرو بلیدینگ</p> 
                   </div>
                 </img>
                 
-                <div class="card-footer">
-                  <h5 class="text-center">دوره قلم طلایی</h5>
-                  <p class="service-card-footer mt-4"><span class="mt-2"> 6000,000 تومان</span><button class="btn btn-small btn-outline-light">جزییات</button><span class="mt-2">3 تیر 1402</span></p>
+                <div class="card-footer p-relative">
+                  <img src="assets/img/card-footer.jpeg" width="100%" height="auto" alt="">
+                    <div class="p-absolute card-footer-content w-100">
+                      <h6 class="text-center mt-2">دوره قلم طلایی</h6>
+                      <p class="service-card-footer mx-4 "><span class="mt-2"> 6000,000 تومان</span><button class="btn btn-small btn-outline-light">جزییات</button><span class="mt-2">3 تیر 1402</span></p>  
+                    </div>
+                  </img>
                 </div>
               </div>
             </div> -->
