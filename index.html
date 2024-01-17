@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+
+
+    <title>پروژه تست| خانه</title>
+
+   
+    <!-- Bootstrap core CSS -->
+    <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/base.css">
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <div class="sub-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-xs-12">
+                    <ul class="left-info">
+                        <li><a href="#">&nbsp;<span id="datetime"></span></a></li>
+                        <li><a href="#" style="direction: ltr;">  </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="right-icons">
+                        <li><a href="#"><img class="white" src="./assets/img/icons/whatsapp.svg"/></a></li>
+                        <li><a href="#"><img class="white" src="./assets/img/icons/whatsapp.svg"/></a></li>
+                        <li><a href="#"><img class="white" src="./assets/img/icons/whatsapp.svg"/></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container" id="heaer-include">
+                <!-- <a class="navbar-brand" href="index.html"><h2>خروج</h2></a> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">خانه
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">درباره ما</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">خدمات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">ارتباط با ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="user_profile.html">صفحه کاربری</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html">ثبت نام</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="download_app.html">دانلود اپلیکیشن</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+      <div class="row px-5 mt-5">
+        <select onchange="adviceSelection(this.value)" class="form-control col-5 mx-5">
+          <option value=""  selected disabled hidden>جستجو ...</option>
+          <option value="1">پیشنهاد 1</option>
+          <option value="2">پیشنهاد 2</option>
+         
+        </select>
+        <select id="sub-advice" class="form-control col-5">
+          <option value=""  selected disabled hidden>جستجو ...</option>
+        </select>
+      </div>
+      
+     
+      <div class="services  mt-0">
+        <div class="p-5 m-5">
+          <div class="col-md-12">
+            <div class="section-heading text-center">
+              <h2>دورهای <em>منتخب</em></h2>
+              <span>توضیح</span>
+            </div>
+          </div>
+          <div class="row" id="services">
+            <!-- <div class="col-12 col-md-6 col-lg-3">
+              <div class="card m-4">
+                <img class="p-relative" src="assets/img/services01.jpg" width="100%" height="300px" alt="">
+                  <div class="p-absolute pt-5 mt-5 text-center service-card-body w-100">
+                    <h2 class="text-center white bold">دوره</h2>
+                    <p class="text-right white px-2 mt-4">مقدماتی میکرو بلیدینگ</p>
+                   
+                  </div>
+                </img>
+                
+                <div class="card-footer">
+                  <h5 class="text-center">دوره قلم طلایی</h5>
+                  <p class="service-card-footer mt-4"><span class="mt-2"> 6000,000 تومان</span><button class="btn btn-small btn-outline-light">جزییات</button><span class="mt-2">3 تیر 1402</span></p>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div> 
+  
+    </main>
+
+   
+    
+    <!-- Footer Starts Here -->
+    <footer>
+    </footer>
+
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Copyright &copy; 2024 تمامی حقوق این سایت متعلق ------ می‌باشد.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="assets/js/base.js"></script>
+    
+ 
+</body>
+
+</html>
