@@ -211,3 +211,12 @@ main{
 .service-card-body p{
     font-size: 20px;
 }
+
+.testimonials {
+    direction: ltr;
+    text-align: right;
+}
+
+.rtl{
+    direction: rtl !important;
+}
